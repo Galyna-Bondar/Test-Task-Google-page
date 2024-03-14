@@ -1,0 +1,126 @@
+@media screen and (max-width: 866px) {
+  html {
+    font-size: 0.875rem;
+  }
+
+  .input_icons button svg {
+    width: 23px;
+    height: 23px;
+  }
+
+  .footer-left ul li {
+    margin-right: 10px;
+  }
+
+  .footer-right ul li {
+    margin-left: 10px;
+  }
+
+  .header-top ul li .dots-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .input_icons button, .sign_in_btn {
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 620px) {
+  footer {
+    font-size: 0.75rem;
+  }
+
+  .input_icons button {
+    margin-right: 5px;
+    margin-left: 0;
+  }
+  .input_icons button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sign_in_btn {
+    margin-left: 3px;
+  }
+}
+@media screen and (max-width: 552px) {
+  html {
+    font-size: 0.875rem;
+  }
+
+  .main_wrap, .search_btns button, #language-select {
+    font-size: 0.75rem;
+  }
+
+  footer {
+    font-size: 0.625rem;
+  }
+
+  .sign_in_btn {
+    margin-left: 3px;
+    padding: 8px 15px;
+  }
+
+  .search_btns button {
+    padding: 8px 15px;
+  }
+}
+@media screen and (max-width: 474px) {
+  .footer-left ul li {
+    margin-right: 5px;
+  }
+
+  .footer-right ul li {
+    margin-left: 5px;
+  }
+
+  .footer_content, .ukraine {
+    padding: 10px;
+    width: calc(100% - 20px);
+  }
+
+  .ukraine {
+    margin-left: 20px;
+  }
+
+  .input_icons button {
+    margin-top: 5px;
+  }
+  .input_icons button svg {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media screen and (max-width: 438px) {
+  .footer-left ul, .footer-right ul {
+    flex-wrap: wrap;
+  }
+
+  .footer-left ul li, .footer-right ul li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 0.75rem;
+  }
+
+  header {
+    font-size: 0.75rem;
+  }
+
+  .logo_wrap {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .input_icons button svg {
+    display: none;
+  }
+
+  .footer-left ul li, .footer-right ul li {
+    margin-bottom: 5px;
+  }
+}

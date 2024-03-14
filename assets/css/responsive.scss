@@ -1,0 +1,127 @@
+$base_size:16;
+@mixin fz($px_size) {
+    font-size: ($px_size/$base_size)+rem;
+}
+
+@media screen and (max-width:866px) {
+html{
+@include fz(14);
+}
+.input_icons button {
+        svg {
+        width: 23px; 
+        height: 23px;
+        }
+    }
+    .footer-left ul li {
+    margin-right: 10px;
+    }
+    
+    .footer-right ul li {
+    margin-left: 10px;
+    }
+    .header-top ul li .dots-icon {
+    width: 20px;
+    height: 20px;
+    }
+    .input_icons button , .sign_in_btn {
+    margin-left: 5px;
+    }
+    
+    
+}
+
+@media screen and (max-width:620px){
+    footer {
+        @include fz(12);
+    }
+    .input_icons button {
+         margin-right: 5px;
+         margin-left: 0;
+            svg {
+            width: 20px; 
+            height: 20px;
+            }
+    }
+    .sign_in_btn {
+    margin-left: 3px;
+}
+}
+
+@media screen and (max-width:552px){
+    html {
+        @include fz(14);
+    }
+    .main_wrap, .search_btns button, #language-select {
+        @include fz(12);
+    }
+
+    footer{
+        @include fz(10);
+    }
+    .sign_in_btn {
+    margin-left: 3px;
+    padding: 8px 15px;
+    }
+.search_btns button {
+    padding: 8px 15px;
+    }
+}
+
+@media screen and (max-width:474px){
+    .footer-left ul li {
+        margin-right: 5px;
+    }
+
+    .footer-right ul li {
+        margin-left: 5px;
+    }
+
+    .footer_content, .ukraine {
+        padding: 10px;
+        width: calc(100% - 20px);
+    }
+    .ukraine {
+        margin-left: 20px;
+    }
+    .input_icons button {
+        margin-top: 5px;
+        svg {
+        width: 15px; 
+        height: 15px;
+        }
+   }
+}
+
+@media screen and (max-width:438px){
+    .footer-left ul, .footer-right ul {
+        flex-wrap: wrap;
+      }
+
+    .footer-left ul li, .footer-right ul li {
+        width: 100%;
+        margin-right: 0; 
+        margin-bottom: 10px; 
+        text-align: center;
+    }
+    footer{
+        @include fz(12);
+    }
+    header {
+        @include fz(12);
+    }
+    .logo_wrap {
+        width:40%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .input_icons button {
+        svg {
+            display:none;
+        }
+    }
+    .footer-left ul li, .footer-right ul li {
+    margin-bottom: 5px; 
+    }
+}
