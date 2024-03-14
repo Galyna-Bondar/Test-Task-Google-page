@@ -12,10 +12,10 @@ $(document).ready(function() {
         let logo = $('#logo');
         
         let logoSrc = logo.attr('src');
-        if (logoSrc === '/assets/images/google_logo.png') {
-            logo.attr('src', '/assets/images/odditytech-logo.png');
+        if (logoSrc === '/google-logo.png') {
+            logo.attr('src', '/odditytech-logo.png');
         } else {
-            logo.attr('src', '/assets/images/google-logo.png');
+            logo.attr('src', '/google-logo.png');
         }
     });
 });
