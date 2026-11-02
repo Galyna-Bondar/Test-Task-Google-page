@@ -12,10 +12,10 @@ $(document).ready(function () {
     var logo = $('#logo');
     var logoSrc = logo.attr('src');
 
-    if (logoSrc === '/assets/images/google-logo.png') {
-      logo.attr('src', '/assets/images/odditytech-logo.png');
+    if (logoSrc === 'assets/images/google-logo.png') {
+      logo.attr('src', 'assets/images/odditytech-logo.png');
     } else {
-      logo.attr('src', '/assets/images/google-logo.png');
+      logo.attr('src', 'assets/images/google-logo.png');
     }
   });
 }); // Те саме на Стандартному JavaScript
@@ -29,10 +29,10 @@ $(document).ready(function () {
 //         event.preventDefault(); 
 //         let logo = document.getElementById('logo');
 //         let logoSrc = logo.getAttribute('src');
-//         if (logoSrc === '/assets/images/google_logo.png') {
-//             logo.setAttribute('src', '/assets/images/odditytech_logo.png');
+//         if (logoSrc === 'assets/images/google_logo.png') {
+//             logo.setAttribute('src', 'assets/images/odditytech_logo.png');
 //         } else {
-//             logo.setAttribute('src', '/assets/images/google_logo.png');
+//             logo.setAttribute('src', 'assets/images/google_logo.png');
 //         }
 //     });
 // });
